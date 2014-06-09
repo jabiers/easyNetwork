@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD773CF194572E500D71D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD773CE194572E500D71D47 /* Foundation.framework */; };
+		EDD773D1194572E500D71D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD773D0194572E500D71D47 /* CoreGraphics.framework */; };
+		EDD773D3194572E500D71D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD773D2194572E500D71D47 /* UIKit.framework */; };
+		EDD773D9194572E500D71D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD773D7194572E500D71D47 /* InfoPlist.strings */; };
+		EDD773DB194572E500D71D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD773DA194572E500D71D47 /* main.m */; };
+		EDD773DF194572E500D71D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD773DE194572E500D71D47 /* AppDelegate.m */; };
+		EDD773E2194572E500D71D47 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD773E0194572E500D71D47 /* Main_iPhone.storyboard */; };
+		EDD773E5194572E500D71D47 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD773E3194572E500D71D47 /* Main_iPad.storyboard */; };
+		EDD773E8194572E500D71D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD773E7194572E500D71D47 /* ViewController.m */; };
+		EDD773EA194572E500D71D47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD773E9194572E500D71D47 /* Images.xcassets */; };
+		EDD773F1194572E500D71D47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD773F0194572E500D71D47 /* XCTest.framework */; };
+		EDD773F2194572E500D71D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD773CE194572E500D71D47 /* Foundation.framework */; };
+		EDD773F3194572E500D71D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD773D2194572E500D71D47 /* UIKit.framework */; };
+		EDD773FB194572E500D71D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD773F9194572E500D71D47 /* InfoPlist.strings */; };
+		EDD773FD194572E500D71D47 /* NetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD773FC194572E500D71D47 /* NetworkTests.m */; };
+		EDD7740819457EB100D71D47 /* ESNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7740719457EB100D71D47 /* ESNetwork.m */; };
+		EDD7740E194582CE00D71D47 /* ESNetworkRestfulOperaton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7740D194582CE00D71D47 /* ESNetworkRestfulOperaton.m */; };
+		EDD7741219458A5300D71D47 /* ESOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7741119458A5300D71D47 /* ESOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD773F4194572E500D71D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD773C3194572E500D71D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD773CA194572E500D71D47;
+			remoteInfo = Network;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDD773CB194572E500D71D47 /* Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD773CE194572E500D71D47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDD773D0194572E500D71D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDD773D2194572E500D71D47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDD773D6194572E500D71D47 /* Network-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Network-Info.plist"; sourceTree = "<group>"; };
+		EDD773D8194572E500D71D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDD773DA194572E500D71D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD773DC194572E500D71D47 /* Network-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Network-Prefix.pch"; sourceTree = "<group>"; };
+		EDD773DD194572E500D71D47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDD773DE194572E500D71D47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDD773E1194572E500D71D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EDD773E4194572E500D71D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EDD773E6194572E500D71D47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDD773E7194572E500D71D47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDD773E9194572E500D71D47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDD773EF194572E500D71D47 /* NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD773F0194572E500D71D47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDD773F8194572E500D71D47 /* NetworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkTests-Info.plist"; sourceTree = "<group>"; };
+		EDD773FA194572E500D71D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDD773FC194572E500D71D47 /* NetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTests.m; sourceTree = "<group>"; };
+		EDD7740619457EB100D71D47 /* ESNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESNetwork.h; path = ESNetwork/ESNetwork.h; sourceTree = "<group>"; };
+		EDD7740719457EB100D71D47 /* ESNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESNetwork.m; path = ESNetwork/ESNetwork.m; sourceTree = "<group>"; };
+		EDD7740919457FB700D71D47 /* ESNetworkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESNetworkProtocol.h; path = ESNetwork/ESNetworkProtocol.h; sourceTree = "<group>"; };
+		EDD7740C194582CE00D71D47 /* ESNetworkRestfulOperaton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESNetworkRestfulOperaton.h; path = ESNetwork/ESNetworkRestfulOperaton.h; sourceTree = "<group>"; };
+		EDD7740D194582CE00D71D47 /* ESNetworkRestfulOperaton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESNetworkRestfulOperaton.m; path = ESNetwork/ESNetworkRestfulOperaton.m; sourceTree = "<group>"; };
+		EDD7740F1945861D00D71D47 /* ESNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESNetworkConfig.h; path = ESNetwork/ESNetworkConfig.h; sourceTree = "<group>"; };
+		EDD7741019458A5300D71D47 /* ESOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESOperation.h; path = ESNetwork/ESOperation.h; sourceTree = "<group>"; };
+		EDD7741119458A5300D71D47 /* ESOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESOperation.m; path = ESNetwork/ESOperation.m; sourceTree = "<group>"; };
+		EDD77413194598C500D71D47 /* ESNetworkReceiveProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESNetworkReceiveProtocol.h; path = ESNetwork/ESNetworkReceiveProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD773C8194572E500D71D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD773D1194572E500D71D47 /* CoreGraphics.framework in Frameworks */,
+				EDD773D3194572E500D71D47 /* UIKit.framework in Frameworks */,
+				EDD773CF194572E500D71D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD773EC194572E500D71D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD773F1194572E500D71D47 /* XCTest.framework in Frameworks */,
+				EDD773F3194572E500D71D47 /* UIKit.framework in Frameworks */,
+				EDD773F2194572E500D71D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD773C2194572E500D71D47 = {
+			isa = PBXGroup;
+			children = (
+				EDD773D4194572E500D71D47 /* Network */,
+				EDD773F6194572E500D71D47 /* NetworkTests */,
+				EDD773CD194572E500D71D47 /* Frameworks */,
+				EDD773CC194572E500D71D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD773CC194572E500D71D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD773CB194572E500D71D47 /* Network.app */,
+				EDD773EF194572E500D71D47 /* NetworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD773CD194572E500D71D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD773CE194572E500D71D47 /* Foundation.framework */,
+				EDD773D0194572E500D71D47 /* CoreGraphics.framework */,
+				EDD773D2194572E500D71D47 /* UIKit.framework */,
+				EDD773F0194572E500D71D47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDD773D4194572E500D71D47 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EDD773DD194572E500D71D47 /* AppDelegate.h */,
+				EDD773DE194572E500D71D47 /* AppDelegate.m */,
+				EDD773E0194572E500D71D47 /* Main_iPhone.storyboard */,
+				EDD773E3194572E500D71D47 /* Main_iPad.storyboard */,
+				EDD773E6194572E500D71D47 /* ViewController.h */,
+				EDD773E7194572E500D71D47 /* ViewController.m */,
+				EDD7740B194582AE00D71D47 /* ESNetwork */,
+				EDD773E9194572E500D71D47 /* Images.xcassets */,
+				EDD773D5194572E500D71D47 /* Supporting Files */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EDD773D5194572E500D71D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDD773D6194572E500D71D47 /* Network-Info.plist */,
+				EDD773D7194572E500D71D47 /* InfoPlist.strings */,
+				EDD773DA194572E500D71D47 /* main.m */,
+				EDD773DC194572E500D71D47 /* Network-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDD773F6194572E500D71D47 /* NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD773FC194572E500D71D47 /* NetworkTests.m */,
+				EDD773F7194572E500D71D47 /* Supporting Files */,
+			);
+			path = NetworkTests;
+			sourceTree = "<group>";
+		};
+		EDD773F7194572E500D71D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDD773F8194572E500D71D47 /* NetworkTests-Info.plist */,
+				EDD773F9194572E500D71D47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDD7740B194582AE00D71D47 /* ESNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				EDD7740619457EB100D71D47 /* ESNetwork.h */,
+				EDD7740719457EB100D71D47 /* ESNetwork.m */,
+				EDD7740919457FB700D71D47 /* ESNetworkProtocol.h */,
+				EDD77413194598C500D71D47 /* ESNetworkReceiveProtocol.h */,
+				EDD7741019458A5300D71D47 /* ESOperation.h */,
+				EDD7741119458A5300D71D47 /* ESOperation.m */,
+				EDD7740C194582CE00D71D47 /* ESNetworkRestfulOperaton.h */,
+				EDD7740D194582CE00D71D47 /* ESNetworkRestfulOperaton.m */,
+				EDD7740F1945861D00D71D47 /* ESNetworkConfig.h */,
+			);
+			name = ESNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD773CA194572E500D71D47 /* Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD77400194572E500D71D47 /* Build configuration list for PBXNativeTarget "Network" */;
+			buildPhases = (
+				EDD773C7194572E500D71D47 /* Sources */,
+				EDD773C8194572E500D71D47 /* Frameworks */,
+				EDD773C9194572E500D71D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Network;
+			productName = Network;
+			productReference = EDD773CB194572E500D71D47 /* Network.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD773EE194572E500D71D47 /* NetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD77403194572E500D71D47 /* Build configuration list for PBXNativeTarget "NetworkTests" */;
+			buildPhases = (
+				EDD773EB194572E500D71D47 /* Sources */,
+				EDD773EC194572E500D71D47 /* Frameworks */,
+				EDD773ED194572E500D71D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD773F5194572E500D71D47 /* PBXTargetDependency */,
+			);
+			name = NetworkTests;
+			productName = NetworkTests;
+			productReference = EDD773EF194572E500D71D47 /* NetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD773C3194572E500D71D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Reveal;
+				TargetAttributes = {
+					EDD773EE194572E500D71D47 = {
+						TestTargetID = EDD773CA194572E500D71D47;
+					};
+				};
+			};
+			buildConfigurationList = EDD773C6194572E500D71D47 /* Build configuration list for PBXProject "Network" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD773C2194572E500D71D47;
+			productRefGroup = EDD773CC194572E500D71D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD773CA194572E500D71D47 /* Network */,
+				EDD773EE194572E500D71D47 /* NetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD773C9194572E500D71D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD773E5194572E500D71D47 /* Main_iPad.storyboard in Resources */,
+				EDD773EA194572E500D71D47 /* Images.xcassets in Resources */,
+				EDD773E2194572E500D71D47 /* Main_iPhone.storyboard in Resources */,
+				EDD773D9194572E500D71D47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD773ED194572E500D71D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD773FB194572E500D71D47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD773C7194572E500D71D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD7740819457EB100D71D47 /* ESNetwork.m in Sources */,
+				EDD773E8194572E500D71D47 /* ViewController.m in Sources */,
+				EDD7740E194582CE00D71D47 /* ESNetworkRestfulOperaton.m in Sources */,
+				EDD773DF194572E500D71D47 /* AppDelegate.m in Sources */,
+				EDD773DB194572E500D71D47 /* main.m in Sources */,
+				EDD7741219458A5300D71D47 /* ESOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD773EB194572E500D71D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD773FD194572E500D71D47 /* NetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD773F5194572E500D71D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD773CA194572E500D71D47 /* Network */;
+			targetProxy = EDD773F4194572E500D71D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDD773D7194572E500D71D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD773D8194572E500D71D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDD773E0194572E500D71D47 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD773E1194572E500D71D47 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EDD773E3194572E500D71D47 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD773E4194572E500D71D47 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EDD773F9194572E500D71D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD773FA194572E500D71D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD773FE194572E500D71D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD773FF194572E500D71D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD77401194572E500D71D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Network/Network-Prefix.pch";
+				INFOPLIST_FILE = "Network/Network-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDD77402194572E500D71D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Network/Network-Prefix.pch";
+				INFOPLIST_FILE = "Network/Network-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDD77404194572E500D71D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Network.app/Network";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Network/Network-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NetworkTests/NetworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDD77405194572E500D71D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Network.app/Network";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Network/Network-Prefix.pch";
+				INFOPLIST_FILE = "NetworkTests/NetworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD773C6194572E500D71D47 /* Build configuration list for PBXProject "Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD773FE194572E500D71D47 /* Debug */,
+				EDD773FF194572E500D71D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD77400194572E500D71D47 /* Build configuration list for PBXNativeTarget "Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD77401194572E500D71D47 /* Debug */,
+				EDD77402194572E500D71D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDD77403194572E500D71D47 /* Build configuration list for PBXNativeTarget "NetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD77404194572E500D71D47 /* Debug */,
+				EDD77405194572E500D71D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD773C3194572E500D71D47 /* Project object */;
+}
